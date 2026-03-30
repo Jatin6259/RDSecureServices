@@ -1,1 +1,140 @@
-# RDSecureServices
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RD Secure Services (LLP)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --brand-navy: #001F3F;
+            --brand-gold: #D4AF37;
+        }
+        body { font-family: 'Arial', sans-serif; color: #333; }
+        
+        /* Navigation */
+        .navbar { background-color: var(--brand-navy); border-bottom: 3px solid var(--brand-gold); }
+        .navbar-brand, .nav-link { color: white !important; font-weight: bold; }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,31,63,0.8), rgba(0,31,63,0.8)), 
+                        url('https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        /* Feature Sections */
+        .section-title { color: var(--brand-navy); font-weight: 800; text-transform: uppercase; margin-bottom: 40px; }
+        .card { border: none; border-top: 5px solid var(--brand-gold); box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        
+        /* Training Gallery */
+        .training-img { 
+            width: 100%; 
+            height: 300px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+            border: 4px solid #eee;
+            margin-bottom: 15px;
+        }
+
+        footer { background: var(--brand-navy); color: white; padding: 50px 0; border-top: 5px solid var(--brand-gold); }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">RD SECURE SERVICES</a>
+            <div class="ms-auto text-white small">PSARA COMPLIANT | ISO CERTIFIED</div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1 class="display-3 fw-bold">COMMITTED TO CREATE SAFE AND SECURE ENVIRONMENT</h1>
+            <p class="lead mt-3">A Premier Security & Facility Management Provider incorporated in 2023.</p>
+            <div class="mt-4">
+                <span class="badge bg-warning text-dark p-2 me-2">70+ Employees</span>
+                <span class="badge bg-warning text-dark p-2">NCR Presence</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 container">
+        <h2 class="text-center section-title">Our Verticals</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 p-4 text-center">
+                    <h3>Guarding</h3>
+                    <p>Verified security personnel with 2 sets of uniform and intensive supervision.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 p-4 text-center">
+                    <h3>Facility Mgmt</h3>
+                    <p>Including Housekeeping (HK) and Electro-Mechanical services with hygiene norms.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 p-4 text-center">
+                    <h3>HR Staffing</h3>
+                    <p>Background verification and specialized R&D for specific client requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Real-Time Training</h2>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="traning1.jpeg" alt="Firefighting Training" class="training-img">
+                    <h4>Fire Fighting & Emergency</h4>
+                    <p class="text-muted">On-site training prior to service commencement.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="traning2.jpeg" alt="Drill Ceremony" class="training-img">
+                    <h4>Discipline & Drill</h4>
+                    <p class="text-muted">Strict adherence to physical standards and reporting procedures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 container">
+        <h2 class="text-center section-title">Recruitment Methodology</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Citizenship:</strong> Indian, Nepalese, Bhutanese</li>
+                    <li class="list-group-item"><strong>Height:</strong> 160 cm min.</li>
+                    <li class="list-group-item"><strong>Run:</strong> 1km in 6 Minutes</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Guards:</strong> High School / Matriculate</li>
+                    <li class="list-group-item"><strong>Supervisors:</strong> Graduation</li>
+                    <li class="list-group-item"><strong>Police Verification:</strong> Initiated at joining</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <h3>RD SECURE SERVICES (LLP)</h3>
+            <p>HO: Gurugram | NCR Offices: Gurugram - Noida</p>
+            <p>Wages paid between 7th and 10th of every month.</p>
+            <hr class="bg-warning">
+            <p class="small">&copy; 2026 RD Secure Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
